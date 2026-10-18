@@ -22,10 +22,24 @@ api_key = os.getenv("OPENWEATHER_API_KEY")
 
 
 def get_weather(city):
-    url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
-    response = requests.get(url)
-    if response.status_code == 200:
-        return response.json()
+    url = "https://api.openweathermap.org/data/2.5/weather"
+    params = {
+        "q": city,
+        "appid": api_key,
+        "units": "metric"
+    }
+
+    try:
+        response = requests.get(url, params=params, timeout=15)
+
+        if response.status_code == 200:
+            return response.json()
+        print(f"Weather request failed ({response.status_code}).")
+        print(response.text)
+
+    except requests.exceptions.RequestException as error:
+        print(f"Could not fetch weather: {error}")
+
     return None
 
 
