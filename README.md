@@ -48,3 +48,56 @@ The tool displays the current weather and country information and saves the weat
 
 ## Project Purpose
 This project demonstrates Python functions, API requests, JSON file handling, environment variables, user input, and error handling.
+
+
+Kenyan Business Currency Tracker
+
+Overview
+
+A Python command-line application that converts Kenyan Shillings (KES) into multiple currencies using exchange-rate data from an API.
+
+Features
+
+Accepts an amount in Kenyan Shillings (KES).
+
+Converts KES into USD, EUR, GBP, JPY, UGX, TZS, RWF, and ZAR.
+
+Retrieves exchange rates from an external API.
+
+Validates user input.
+
+Handles errors when exchange rates cannot be retrieved.
+
+Technologies Used
+
+Python 3
+
+Requests
+
+ExchangeRate-API
+
+JSON
+
+Requirements
+
+Python 3
+
+Internet connection
+
+requests Python package
+
+How to Run
+
+Install the required package:
+
+python -m pip install requests
+
+Run the application:
+
+python currency_tracker.py
+
+Enter the amount in KES when prompted to view the conversions.
+
+Notes
+
+Exchange rates are updated periodically and may differ from rates offered by banks or money-transfer services.
