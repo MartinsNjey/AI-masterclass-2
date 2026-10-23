@@ -1,0 +1,14 @@
+Client delivery message: Currency Tracker
+
+Hello,
+
+The Kenyan Business Currency Tracker is ready for review. 
+It accepts an amount in Kenyan shillings and displays conversions into supported foreign currencies using online exchange-rate data.
+
+The project includes the Python script and README instructions for installing the dependencies and running the application. 
+Please ensure you have an internet connection when using it.
+
+Revision vs New Feature
+
+A revision would fix an existing problem in the currency conversion or improve its current output, 
+while a new feature would add a capability such as saving conversion results to a CSV file.
