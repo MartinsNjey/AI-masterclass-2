@@ -51,34 +51,51 @@ This project demonstrates Python functions, API requests, JSON file handling, en
 
 ---
 
-## Kenyan Business Currency Tracker
+# AI Masterclass Projects
 
-## Overview
+A collection of Python and data projects built during the AI Masterclass Foundation program.
 
-A Python application that converts Kenyan Shillings (KES) into multiple currencies using exchange-rate data from an API.
+---
 
-## Requirements
+## 1. Kenyan Business Currency Tracker
+
+### Overview
+
+A Python command-line application that converts Kenyan Shillings (KES) into multiple foreign currencies using live exchange-rate data from an online API.
+
+### Features
+
+- Converts KES into USD, EUR, GBP, JPY, UGX, TZS, RWF, and ZAR.
+- Retrieves exchange rates online.
+- Displays conversion results to two decimal places.
+- Handles invalid amounts, unsupported currencies, and connection errors.
+
+### Technologies
 
 - Python 3
-- Internet connection
-- `requests` Python package
+- Requests
+- python-dotenv
+- Exchange-rate API
 
-## How to Run
+### Setup
 
-Install the required package:
+**1. Install the required packages**
 
 ```bash
-python -m pip install requests
+python -m pip install requests python-dotenv
 ```
 
-Run the application:
+**2. Run the application**
 
 ```bash
 python currency_tracker.py
 ```
 
-Enter an amount in KES when prompted to view the conversions.
+**3. Use the tracker**
 
-## Notes
+Enter an amount in Kenyan Shillings when prompted to display the conversions.
 
-Exchange rates are updated periodically and may differ from rates offered by banks or money-transfer services.
+### Important Notes
+
+- Exchange rates change and may differ from rates offered by banks or money-transfer services.
+- Conversion results are estimates and should be checked before financial decisions.
