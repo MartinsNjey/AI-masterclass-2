@@ -1,0 +1,11 @@
+Hello,
+
+Before I finalise the solution, could you please confirm how the current 
+milk buying price is stored? Is it in a spreadsheet, or does someone enter it manually each week?
+
+This will help me choose the simplest way to let your team update the price.
+
+If I don't receive a response before development begins, 
+I'll assume the price can be stored in a simple `price.txt` file that 
+the manager can update weekly. If the price is held in a database or a more complex system, 
+I may need to revise the timeline and cost after confirming the requirements.

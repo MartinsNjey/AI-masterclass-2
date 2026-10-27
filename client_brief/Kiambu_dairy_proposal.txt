@@ -1,0 +1,25 @@
+PROPOSAL: KIAMBU DAIRY CO-OP PAYMENT CALCULATOR
+
+Hello,
+
+I can help your dairy co-operative simplify the process of calculating payments for your 30 farmer members.
+
+Understanding: You need a simple program that calculates the amount owed to each farmer 
+based on the litres of milk supplied and the current buying price per litre.
+
+Approach: I'll build a Python command-line calculator with input validation and a separate price 
+file that your manager can update each week.
+
+Deliverables:
+- Python calculator script.
+- Editable price.txt file.
+- README instructions and basic testing.
+
+Price and timeline: KES 8,000, with delivery by the end of the week. 
+50% upfront (KES 4,000); the remaining KES 4,000 upon delivery and review.
+
+Assumption: The price can be maintained in a simple text file. 
+Integration with spreadsheets, databases, or payment systems is not included in this price.
+
+Call to action: Please confirm the price-storage method and we can agree on the start date.
+
