@@ -1,0 +1,19 @@
+Hello,
+
+The Kiambu Dairy Co-op Payment Calculator is ready.
+
+The tool allows a farmer to enter their name and the litres of milk supplied, then calculates the total amount owed using the current buying price per litre.
+
+**What's included:**
+
+- The Python calculator script.
+- A `price.txt` file for storing the current buying price.
+- README instructions explaining how to run the program and update the price.
+
+**How to use it:**
+Run `python Kiambu_Dairy_Calculator.py` in your terminal, enter the farmer's name and litres supplied, and the program will display the payment summary.
+
+The co-op manager can update the weekly price by changing the number in `price.txt`.
+
+Please test the tool with your records and confirm the result.
+

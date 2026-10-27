@@ -99,3 +99,31 @@ Enter an amount in Kenyan Shillings when prompted to display the conversions.
 
 - Exchange rates change and may differ from rates offered by banks or money-transfer services.
 - Conversion results are estimates and should be checked before financial decisions.
+
+
+## Kiambu Dairy Co-op Payment Calculator
+
+### Description
+A Python command-line tool that calculates how much a dairy co-op owes a farmer based on the litres of milk supplied and the current buying price per litre.
+
+### Requirements
+- Python 3.8 or later
+
+### How to Run
+1. Keep `price.txt` in the same folder as `Kiambu_Dairy_Calculator.py`.
+2. Enter the current price in `price.txt`, for example, `55.0`.
+3. Open the terminal in the project folder.
+4. Run:
+
+```bash
+python Kiambu_Dairy_Calculator.py
+```
+
+### Example Output
+- Farmer: John Mwangi
+- Litres supplied: 20
+- Price per litre: KES 55.00
+- Total amount owed: KES 1,100.00
+
+### Updating the Price
+The co-op manager can update the weekly buying price by changing the number in `price.txt`. For example, enter `60.0` to set the price at KES 60 per litre.
