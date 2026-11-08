@@ -33,7 +33,7 @@ df1 = pd.read_sql_query(query1, conn)
 print("\nQUERY 1: ORDER STATUS PERCENTAGES BY COUNTY")
 print(df1)
 
-# A Month-on-month customer growth cannot yet be assessed because the available data covers only January 2026.
+# Each customer has only one recorded order, so previous order values are unavailable.
 
 query2 = """
 SELECT
