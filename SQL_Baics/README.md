@@ -88,3 +88,40 @@ All four tests completed successfully.
 Automating weekly reports reduces repetitive manual SQL work, saves staff time, improves reporting consistency and helps the operations team make faster decisions.
 
 **Proposed pricing:** KES 10,000 setup fee and KES 2,000 monthly support, depending on the client's requirements.
+
+## Advanced SQL Analysis – Business Trends
+
+### Overview
+
+This exercise uses SQL window functions, conditional aggregation and Pandas to answer three business questions for a Nairobi wholesale distributor.
+
+### Query 1: Order Status Percentages by County
+
+Calculated the percentage of delivered, pending and cancelled orders in each county.
+
+**Business interpretation:** Mombasa and Nairobi each have 50% delivered and 50% pending orders, while Machakos and Nakuru have entirely pending orders. These counties may require follow-up to improve order completion.
+
+### Query 2: Previous Order Comparison
+
+Used the SQL `LAG()` window function to compare each customer's
+current order value with their previous order value.
+
+**Business interpretation:** Each customer currently has only one
+recorded order, so previous order values are unavailable. More
+customer order records are needed to assess changes in spending
+behaviour.
+
+### Query 3: Running Total of Revenue
+
+Used a SQL window function to calculate cumulative revenue across all counties, ordered by transaction date.
+
+**Business interpretation:** Total recorded revenue reached KES 307,600 by 25 January 2026, providing management with a view of cumulative sales performance.
+
+### Requirments
+
+- Python
+- SQLite
+- SQL
+- Pandas
+- SQL window functions (`LAG()` and `OVER()`)
+- Conditional aggregation (`CASE WHEN`)
