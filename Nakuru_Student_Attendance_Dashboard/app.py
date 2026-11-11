@@ -41,14 +41,17 @@ filtered = attendance[
 
 st.subheader("Attendance Trend by Class")
 
+
 chart_data = filtered.copy()
 
-chart_data["date"] = chart_data["date"].dt.strftime("%d %b %Y")
+chart_data = chart_data.sort_values("date")
 
 chart_data = chart_data.pivot(
     index="date",
     columns="class_name",
     values="attendance_rate"
 )
+
+chart_data = chart_data.sort_index()
 
 st.line_chart(chart_data)
