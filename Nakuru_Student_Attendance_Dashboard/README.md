@@ -4,17 +4,23 @@
 ## Description
 A Streamlit dashboard that helps a school principal monitor student attendance across five classes.
 
-The dashboard displays:
-- Overall student attendance rate.
-- Best-attending class.
-- Worst-attending class.
-- Attendance trends by class using a line chart.
-- A date range slider to filter attendance records.
+The dashboard allows teachers to upload their own attendance CSV files, filter attendance records, view charts and download filtered data.
+
+## Features
+- Upload attendance data using CSV files.
+- Filter records by class name.
+- Select a date range.
+- Calculate overall attendance rates.
+- Identify the best-attending and worst-attending classes.
+- Display attendance trend using a line chart.
+- Compare averange attendance rates using a bar chart.
+- Download filtered attendance records as a CSV file.
 
 ## Files
 - `app.py` - Main Streamlit dashboard.
 - `attendance.csv` - Sample student attendance data.
 - `generate_data.py` - Script used to generate sample attendance records.
+- `README.md` - Project documentation.
 
 ## Requirements
 - Python 3
@@ -48,6 +54,13 @@ The dashboard expects a CSV file named `attendance.csv` with these four columns:
 | students_present | Number of students present |
 | students_total | Total students in the class |
 
-## Sample Data
+## Pricing Note
 
-The project includes 280 sample attendance records covering 56 days across five classes.
+Proposed pricing for a School:
+
+| Service | Proposed fee |
+|---|---:|
+| Initial setup and development | KES 45,000 |
+| Monthly maintenance and support | KES 5,000 |
+
+I would prefer charging per school rather than per teacher because the dashboard serves the whole school.
