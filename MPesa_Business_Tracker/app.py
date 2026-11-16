@@ -8,7 +8,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("mpesa_transactions.csv")
+    df = pd.read_csv("MPesa_Business_Tracker/mpesa_transactions.csv")
     df["date"] = pd.to_datetime(df["date"])
     df["month"] = df["date"].dt.strftime("%B %Y")
     return df
