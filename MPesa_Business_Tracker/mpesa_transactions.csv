@@ -1,0 +1,13 @@
+date,transaction_type,description,amount
+2026-01-05,Customer Payment,Shop sale,2500
+2026-01-06,Buy Goods,Customer purchase,1800
+2026-01-08,Customer Payment,Shop sale,3200
+2026-01-12,Paybill,Customer payment,4500
+2026-01-14,Customer Payment,Shop sale,2800
+2026-01-19,Buy Goods,Customer purchase,1500
+2026-01-21,Customer Payment,Shop sale,5200
+2026-01-26,Paybill,Customer payment,3800
+2026-02-02,Customer Payment,Shop sale,4100
+2026-02-04,Buy Goods,Customer purchase,2200
+2026-02-09,Customer Payment,Shop sale,6000
+2026-02-11,Paybill,Customer payment,3500
