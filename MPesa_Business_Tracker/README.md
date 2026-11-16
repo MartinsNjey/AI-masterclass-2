@@ -35,4 +35,5 @@ It uses Streamlit and Pandas to present transaction information in an interactiv
 
    `python -m streamlit run app.py`
 
-3. Open the local URL displayed in your termina
+3. Open the local URL displayed in your terminal.
+
