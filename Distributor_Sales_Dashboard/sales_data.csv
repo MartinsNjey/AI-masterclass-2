@@ -1,0 +1,13 @@
+date,county,product,customer,quantity,price
+2026-01-05,Nairobi,Maize Flour,Kamau Stores,20,180
+2026-01-08,Kisumu,Rice,Otieno Traders,15,250
+2026-01-12,Nakuru,Sugar,Wanjiku Shops,25,160
+2026-02-03,Nairobi,Rice,Kamau Stores,30,250
+2026-02-10,Kisumu,Maize Flour,Otieno Traders,40,180
+2026-02-15,Nakuru,Sugar,Wanjiku Shops,35,160
+2026-03-04,Nairobi,Sugar,Kamau Stores,18,160
+2026-03-11,Kisumu,Rice,Otieno Traders,22,250
+2026-03-19,Nakuru,Maize Flour,Wanjiku Shops,28,180
+2026-04-02,Nairobi,Rice,Kamau Stores,35,250
+2026-04-09,Kisumu,Sugar,Otieno Traders,30,160
+2026-04-17,Nakuru,Maize Flour,Wanjiku Shops,32,180
