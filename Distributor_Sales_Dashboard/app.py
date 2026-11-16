@@ -1,12 +1,13 @@
 
 import streamlit as st
 import pandas as pd
+from pathlib import Path
 
 st.set_page_config(page_title="Sales Dashboard", layout="wide")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("sales_data.csv")
+    df = pd.read_csv(Path(__file__).parent / "sales_data.csv")
     df["date"] = pd.to_datetime(df["date"])
     df["revenue"] = df["quantity"] * df["price"]
     return df
