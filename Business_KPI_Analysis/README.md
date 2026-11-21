@@ -18,6 +18,9 @@ This project analyses sample business data using Python and Pandas to calculate 
 - `business_data.csv` – Sample business dataset.
 - `business_kpi.py` – Python script for calculating and analysing KPIs.
 - `kpi_summary.html` – HTML report displaying the KPI summary with colour coding.
+- `client_presentation.md` - Five-slide client presentation.
+- `charts/revenue_chart.py` - Python script used to create the revenue chart.
+- `charts/revenue_chart.png` - Revenue comparison chart.
 
 ## How to Run
 
@@ -30,6 +33,9 @@ This project analyses sample business data using Python and Pandas to calculate 
 4. Run:
 
    `python business_kpi.py`
+
+   `python charts/revenue_chart.py`
+
 
 ## Key Findings
 - Revenue increased by 12% from February to March.
